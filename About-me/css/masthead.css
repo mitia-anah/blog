@@ -1,0 +1,35 @@
+/* Here I put all positions and styling .*/
+
+html {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+header h1 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+body {
+    background-image: url("../image/bronz.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 200px;
+    margin: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 40s;
+    transform: rotate(-75deg);
+    
+}
+
+.clip-circle {
+    clip-path: circle(100px at center 50%);
+}
+
+
