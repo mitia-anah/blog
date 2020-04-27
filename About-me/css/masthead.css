@@ -13,7 +13,8 @@ header h1 {
   }
 body {
     background-image: url("../image/bronz.jpg");
-    background-size: cover;
+    background-size: 90%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -31,5 +32,6 @@ img {
 .clip-circle {
     clip-path: circle(100px at center 50%);
 }
+
 
 
