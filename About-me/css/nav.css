@@ -1,7 +1,6 @@
-@media screen and (max-width: 600px) {
 nav {
-    display: flex;
-    align-items: center;
+
+    
 }
 
 nav ul {
@@ -14,15 +13,8 @@ nav ul {
       text-transform: lowercase;
       font-weight: 700;
       font-size: 3rem;
-      display: block;
-      position: relative;
+      align-items: center;
   }
 
-  li a {
-    padding: 0;
-    text-align: center;
-    margin-inline-start: 0rem;
-    margin-block-start: 0;
-    margin-block-end: 2rem;
-    padding-inline-start: 100%;
+
   }

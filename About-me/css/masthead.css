@@ -14,8 +14,7 @@ header h1 {
   
 body {
     background-image: url("../image/bronz.jpg");
-    background-size: 90%;
-    background-position: center;
+    background-size: cover, cover;
     background-repeat: no-repeat;
 }
 
