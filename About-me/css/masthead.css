@@ -8,14 +8,19 @@ html {
 header h1 {
     color: goldenrod;
     text-align: center;
+    transform: translate(200px, -50%);
     font-size: 3rem;
     text-transform: uppercase;
   }
   
 body {
+    width: 50vw;
+    height: 50vh;
     background-image: url("../image/bronz.jpg");
-    background-size: cover, cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
 }
 
 img {
@@ -24,10 +29,16 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transition-duration: 40s;
-    transform: rotate(-75deg);
-    
+    transition-duration: 6s;
+    transform: translate(50%, 50%) rotate(365deg);
 }
+
+body > nav > ul li {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    display: block;
+} 
 
 .clip-circle {
     clip-path: circle(100px at center 50%);

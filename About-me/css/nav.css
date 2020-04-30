@@ -1,4 +1,10 @@
-nav {
+li {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    display: block;
+    top: 50%;
+    left: 50%;
 
     
 }
