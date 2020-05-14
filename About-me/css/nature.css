@@ -1,3 +1,4 @@
+
 body {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
@@ -13,8 +14,8 @@ section > header h2 {
 main {
     display: block;
     display: inline-block;
-    border: 2px solid;
-    border-radius: 5%;
+    border-style: none;
+    box-shadow: inset 10px, 10px, 15px rgba(120, 172, 220, 0.5);
     background-color: mediumaquamarine;
     }
 main img {
