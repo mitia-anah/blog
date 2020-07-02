@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 /* The site name and layout for the header */
+=======
+@import "defaults.css";
+>>>>>>> master
 @import "header.css";
-
-/* The handling of links for the site nav */
 @import "nav.css";
+<<<<<<< HEAD
 
 /* positioning the backround */
 @import "masthead.css";
+=======
+@import "footer.css";
+@import "masthead.css";
+@import "blog.css";
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+}
+>>>>>>> master
