@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+li {
+    display: grid;
+    grid-template-rows: repeat(3, 50px );
+    text-transform: lowercase;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+}
