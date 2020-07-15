@@ -1,0 +1,12 @@
+body {
+  width: 10px;
+  height: 10px;
+  background-image: ;
+}
+
+#img {
+    background-image: url('../08-01-2020-my-village/andromba.jpg');
+    width: 2px;
+    height: 3px;
+    padding: 1rem;
+}
